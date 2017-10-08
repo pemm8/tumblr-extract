@@ -162,7 +162,7 @@ class CrawlerScheduler(object):
             self.download_media(site)
 
     def download_media(self, site):
-        self.download_photos(site)
+        # self.download_photos(site)
         self.download_videos(site)
 
     def download_videos(self, site):
